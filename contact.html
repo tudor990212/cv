@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h1><center>Pagina de contact</center></h1>
+    <hr size="3" noshade>
+    <ul>
+        <li>Numar de telefon: 0763337883</li>
+        <li>Adresa de email: tudormardale@gmail.com</li>
+        <li>Adresa de domiciliu: Sos. Pandurilor nr.17 Bloc P10 Ap.05 Et.1 Sector 5 Bucuresti</li>
+    </ul>
+    <hr size="3" noshade>
+
+    <form class="" action="Intermediate_HTML.html" method="post"> <!-- FORMULAR -->   <!-- action are rolul de a redirectiona userul -->
+        <label>Esti de acord cu prelucrarea datelor? </label>
+        <input type="checkbox" name="name" value=""> <!-- introducerea unui checkbok -->
+        <br>
+        <label>Nume si prenume: </label>
+        <input type="text" name="name" value=""> <!-- introducerea unei casute text -->
+        <br>
+        <label>Varsta: </label>
+        <input type="text" name="varsta" value="">
+        <br>
+        <label>Introduceti parola: </label>
+        <input type="password" name="" value=""> <!-- introducerea unei parole -->
+        <br>
+        <input type="submit" value="Finalizare"> <!-- introducerea butonului Submit cu valoarea Finalizare-->
+    </form>
+    <hr size="3" noshade>
+
+<!-- input type="text/submit/color/password/checkbox/file/date/radio/range" -->
+
+    <h3>Challenge formulare</h3>
+    <form class="" action="" method="">
+        <label>Input text: </label>
+        <input type="text" name="" value="">
+        <br>
+        <label>Input submit: </label>
+        <input type="submit" name="" value="Submit">
+        <br>
+        <label>Input file: </label>
+        <input type="file" name="" value="">
+        <br>
+        <label>Input date: </label>
+        <input type="date" name="" value="">
+        <br>
+        <label>Input radio: </label>
+        <input type="radio" name="" value="">
+        <br>
+        <label>Input range: </label>
+        <input type="range" name="" value="">
+    </form>
+    <hr size="3" noshade>
+
+    <h3>Formular trimitere mesaj prin email</h3>
+    <form action="mailto:tudormardale@gmail.com" method="post" enctype="text/plain"> <!-- FORMULAR TRIMITERE MESAJ -->  
+        <!-- enctype = text/plain ca sa afiseze corect textul cand va scrie mailul-->
+        <!-- method = post va trimite pe adresa de mail de la action tot ce am pus in formular-->
+        <label>Nume si prenume: </label>
+        <input type="text" name="Nume_si_Prenume" value=""> 
+        <br>
+        <label>Adresa de email: </label>
+        <input type="email" name="Adresa_email" value="">
+        <br>
+        <label>Lasati un mesaj: </label><br>
+        <textarea name="Mesaj" rows="8" cols="30"></textarea> 
+        <br>
+        <input type="submit" value="Finalizare"> 
+    </form>
+    <hr size="3" noshade>
+
+
+</body>
+</html>
